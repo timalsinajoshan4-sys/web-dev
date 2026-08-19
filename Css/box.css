@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(255, 202, 242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/download.jpg");
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid hwb(59 67% 7%);
+    position: relative;
+    background-color: rgb(139, 193, 226);
+    background-image: url("images/images.png");
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(19, 17, 21);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 1s ease, background-color 1s ease;
+    background-image: url("images/owl.jpg");
+}
+
+.box:hover {
+    background-color: rgb(89, 89, 170);
+    transform: translate(-50%, -50%) scale(1.2)  rotate(15deg);
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 300px;
+        height: 300px;
+        border: 1px solid #926b6b;
+    }
+     .box {
+        width: 75px;
+        height: 75px;
+    }
+}
