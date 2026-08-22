@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(255, 202, 242);
+}
+
+.container {
+    width: 500px;
+    padding: 30px;
+
+    border: 1px solid #926b6b;
+    background-color: white;
+
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.images img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
