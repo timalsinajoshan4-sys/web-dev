@@ -49,18 +49,45 @@
 // }
 // difference (4,5);
 
-//Create a function to check even or odd
-function checkEvenOdd(num) {
-    return num%2;
-}
-// let x=5;
-let x=prompt('Enter any number to check odd or even');
-let result=checkEvenOdd(x);
-if (result==0) {
-    // console.log('The number is even');
-    alert('The number is even');
-}
-else {
-    // console.log('The number is odd');
-    alert('The number is odd');
-}
+// Create a function to check even or odd
+// function checkEvenOdd(num) {
+//     return num%2;
+// }
+// // let x=5;
+// let x=prompt('Enter any number to check odd or even');
+// let result=checkEvenOdd(x);
+// if (result==0) {
+//     // console.log('The number is even');
+//     alert('The number is even');
+// }
+// else {
+//     // console.log('The number is odd');
+//     alert('The number is odd');
+// }
+
+// if (true) {
+//     let x=1;
+//     var y=2;
+// }
+// console.log('x',x);
+// console.log('y',y);
+
+// debugger;
+// let x= 1;
+// let y=2;
+
+// function sum (){
+//     let x=3;
+//     y=7;
+//     console.log('sum inside function',x+y);
+// }
+// console.log('sum outside function',x+y);
+// sum();
+// console.log('sum after function call',x+y);
+
+// let x=prompt ("Enter your age:");
+// console.log(x >= 18 ? "Adult" : "Minor");
+
+
+// Assignment: Ask number from user and print the number table.  Use template literal.
+
